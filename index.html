@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>GitHub Repos</title>
+</head>
+<body>
+    <h1>GitHub Repository List</h1>
+
+    <form id="searchForm">
+        <label for="searchInput">Search for a GitHub user handle:</label>
+        <input type="text" name="searchInput" id="searchInput" placeholder="Username">
+        <button type="submit">Search</button>
+    </form>
+
+    <section id="searchResults" class="hidden">
+        <h2>Results</h2>
+        <ul id="results-list">
+
+        </ul>
+    </section>
+
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>    
+    <script src="index.js"></script>
+</body>
+</html>
